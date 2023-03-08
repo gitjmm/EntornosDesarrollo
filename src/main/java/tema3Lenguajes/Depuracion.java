@@ -10,12 +10,12 @@ package tema3Lenguajes;
  */
 public class Depuracion {
     public static void main(String[] args){
-        int num1;
-        int num2
+        int num1 = 2;
+        int num2 = 4;
         int suma;
             
         suma = num1 + num2;
-        potencia = Math.pow(num1, num2);
-        System.out.println("La suma es :"+ suma "y la potencia es:"+ potencia);
+        double potencia = Math.pow(num1, num2);
+        System.out.println("La suma es :"+ suma + "y la potencia es:"+ potencia);
     }
 }
