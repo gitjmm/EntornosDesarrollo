@@ -15,7 +15,7 @@ public class EntornosDesarrollo {
         System.out.println(telegrama1);  
         telegrama1.setNumPalabras(12);  
         telegrama1.calculaCosto();  
-        System.out.println(telegrama1);  
+         System.out.println(telegrama1);  
         Telegrama telegrama2 = new Telegrama("Urgente", 8);   
         telegrama2.calculaCosto();  
         System.out.println(telegrama2);  

@@ -59,7 +59,7 @@ public class OperacionesTest {
         int n1 = 2;
         int n2 = 4;
         Operaciones instance = new Operaciones();
-        int expResult = 6;
+        int expResult = 7;
         int result = instance.suma(n1, n2);
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
