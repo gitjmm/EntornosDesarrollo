@@ -60,11 +60,23 @@ public class ClassA {
     
     /*  6. Cambio de parámetros
         Es posible modificar el número de parámetros de un método 
-        y cambiar incluso su  forma de acceso. 
+        y cambiar incluso su  forma de acceso. Cambiar parametros de
+        metodo5(int num1) a metodo5(int num1, int num2)
+        En Netbeans Refactor - Change Method Parameters. Añadir parametros.
         
+    */
+    public int metodo5(int num1){
+        return num1 * num1;
+    }
     
+    /*  7. Mover a otro nivel
+       Con este patrón podemos mover una clase a otro nivel de la jerarquía
+       para que pueda  incluso ser pública. Cambiar el acceso de una clase.
+       Una clase suele ser pública.
     */
     
-    
+    /* 8. Borrar
+        
+    */
 }
 
