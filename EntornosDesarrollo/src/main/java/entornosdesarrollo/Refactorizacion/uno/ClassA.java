@@ -6,7 +6,7 @@ package entornosdesarrollo.Refactorizacion.uno;
 
 /**
  *
- * @author Usuario
+ * @author Jorge Martínez
  */
 public class ClassA {
     
@@ -72,10 +72,10 @@ public class ClassA {
     /*  7. Mover a otro nivel
        Con este patrón podemos mover una clase a otro nivel de la jerarquía
        para que pueda  incluso ser pública. Cambiar el acceso de una clase.
-       Una clase suele ser pública.
+       Una clase suele ser pública. No hay opción para este patrón. 
     */
     
-    /* 8. Borrar
+    /* 8. Borrar. Sobre el elemento Safely Delete.
         
     */
 }
