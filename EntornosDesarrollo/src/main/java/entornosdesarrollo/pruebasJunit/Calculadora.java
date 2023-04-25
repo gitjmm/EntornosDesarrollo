@@ -6,7 +6,7 @@ package entornosdesarrollo.pruebasJunit;
 
 /**
  *
- * @author Usuario
+ * @author Jorge Martinez
  */
 public class Calculadora {
     public static void main(String args[]){
