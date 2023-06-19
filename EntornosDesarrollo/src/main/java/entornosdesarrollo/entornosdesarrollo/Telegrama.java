@@ -6,7 +6,7 @@ package entornosdesarrollo.entornosdesarrollo;
 
 /**
  *
- * @author Usuario
+ * @author Jorge
  */
 public class Telegrama {
     private final double COSTO_ORDINARIO = 25.0;  
