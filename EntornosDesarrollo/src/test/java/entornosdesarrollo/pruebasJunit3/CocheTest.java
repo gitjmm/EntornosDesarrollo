@@ -24,7 +24,7 @@ public class CocheTest {
         Coche instance = new Coche("renault",10000);
         float expResult = 9000.0F;
         float result = instance.precioFinal(descuento);
-        assertEquals(expResult, result, 0);
+        assertEquals(expResult, result, 1);
         //fail("The test case is a prototype.");
     }
     

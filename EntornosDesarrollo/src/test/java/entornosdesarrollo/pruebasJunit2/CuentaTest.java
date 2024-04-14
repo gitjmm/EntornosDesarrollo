@@ -52,8 +52,8 @@ public class CuentaTest {
     @Test
     public void testDimeContra() {
         System.out.println("dimeContra");
-        Cuenta instance = null;
-        String expResult = "";
+        Cuenta instance = new Cuenta(0,"contraseña");
+        String expResult = "contraseña";
         String result = instance.dimeContra();
         assertEquals(expResult, result);
         //fail("The test case is a prototype.");

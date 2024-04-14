@@ -56,10 +56,10 @@ public class OperacionesTest {
     @org.junit.jupiter.api.Test
     public void testSuma() {
         System.out.println("suma");
-        int n1 = 2;
-        int n2 = 4;
+        int n1 = 8;
+        int n2 = 2;
         Operaciones instance = new Operaciones();
-        int expResult = 7;
+        int expResult = 11;
         int result = instance.suma(n1, n2);
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
@@ -72,14 +72,14 @@ public class OperacionesTest {
     @org.junit.jupiter.api.Test
     public void testResta() {
         System.out.println("resta");
-        int n1 = 0;
-        int n2 = 0;
+        int n1 = 3;
+        int n2 = 2;
         Operaciones instance = new Operaciones();
-        int expResult = 0;
+        int expResult = 1;
         int result = instance.resta(n1, n2);
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        //fail("The test case is a prototype.");
     }
     
 }
